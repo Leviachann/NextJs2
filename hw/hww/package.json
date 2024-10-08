@@ -1,0 +1,25 @@
+{
+  "name": "hww",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve-json": "json-server --watch db.json --port 4000"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.25.7",
+    "axios": "^1.7.7",
+    "next": "14.2.14",
+    "react": "^18",
+    "react-dom": "^18",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
